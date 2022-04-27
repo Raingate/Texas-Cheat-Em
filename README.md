@@ -1,3 +1,3 @@
 # DouGod
-This is a course project of SJTU AI3617：Game Theory and Multi-agent Reinforce Learning.
-Group members include Jinhao feng, Mingyang Jiang,  Wenzhuo Zheng.
+This is a course project of SJTU AI3617
+Group members: Jinghao feng, Mingyang Jiang, Wenzhuo Zheng.
