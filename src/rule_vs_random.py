@@ -61,7 +61,7 @@ def train():
         csv_path, fig_path = logger.csv_path, logger.fig_path
 
     # Plot the learning curve
-    plot_curve(csv_path, fig_path, 'dqn')
+    plot_curve(csv_path, fig_path, 'rule')
 
     # Save model
     save_path = os.path.join(log_dir, 'model.pth')
