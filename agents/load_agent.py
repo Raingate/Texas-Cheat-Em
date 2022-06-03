@@ -52,7 +52,7 @@ def load_agent(player_type, env, device='cpu', load_path=''):
     elif player_type == 'rule2':
         agent = Rule2Agent(num_actions=env.num_actions)
     elif player_type == 'table':
-        agent = TableAgent(num_actions=env.num_actions, load_path=load_path)
+        agent = TableAgent(num_actions=env.num_actions, load_path='networks/cheating_sheet.npy')
     elif player_type == 'raise_rule':
         agent = BraveAgent(num_actions=env.num_actions)
     elif player_type == 'random':
