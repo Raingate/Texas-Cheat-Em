@@ -1,7 +1,8 @@
 # Texas Cheat'Em
 <img src="https://github.com/Raingate/Texas-Cheat-Em/blob/master/p1196583759.jpg" width = "320" height = "200" div align=center />
 
-This is a course project of SJTU AI3617. 
+This is a course project of SJTU AI3617. \
+The group name is: 璃月究极赌怪之光 \
 Members include: Wenzhuo Zheng, Mingyang Jiang, Jinghao Feng
 
 Limited Texas Hold'em is a world-wide popular card game, and also a typical imperfect information multi-agent game. It's a compound of fortune and strategy. This project studies application of MARL algorithms on this game. We first study performance of existing RL algorithms, and propose some customized modifications based on experimental observations. Then, we integrate our ideas to propose a brand new value-aware and rival-aware MARL algorithm that outperforms all baselines.
