@@ -115,7 +115,6 @@ def train(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Training in RLCard")
-    parser.add_argument('--device', type=str, default='cpu')
     parser.add_argument('--player1', type=str, default='cheater',
                         choices=['ppo', 'dqn', 'rule', 'raise_rule', 'random', 'cheater', 'table'])
     parser.add_argument('--player2', type=str, default='ppo',
@@ -128,6 +127,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     args.env = 'limit-holdem'
+    args.device = 'cuda' if torch.cuda.is_available() else 'cpu'
     args.log_dir = os.path.join('experiments', args.env + '_' + args.player1 + '_' + args.player2 + '_result')
 
     train(args)
