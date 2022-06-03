@@ -1,4 +1,6 @@
 # Texas Cheat'Em
+<img src="https://github.com/Raingate/Texas-Cheat-Em/blob/master/p1196583759.jpg" width = "320" height = "200" div align=center />
+
 This is a course project of SJTU AI3617. 
 Members include: Wenzhuo Zheng, Mingyang Jiang, Jinghao Feng
 
